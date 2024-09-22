@@ -5,13 +5,11 @@
 /* default styles */
 *{
   margin: 0;
-  padding: 0;
-
-  
+  padding: 0; 
 }
 
 .container{
-  width: 75%;
+  width: 80%;
   max-width: 1440px;
   margin: 5rem auto;
 }
@@ -101,4 +99,80 @@ border-radius: 8px;
   font-size: 20px;
   font-weight: 600;
   border-radius: 8px;
+}
+
+/* card -1 */
+
+#card-1{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  border: 2px solid rgb(71, 70, 70, 0.7);
+  padding: 20px;
+  border-radius: 16px;
+}
+
+
+
+
+
+.deposit-amt{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: rgba(17, 17, 17, 0.05);
+  padding: 10px 16px 10px 16px;
+  width: 110px;
+}
+
+.deposit-amt h4{
+  color: rgba(17, 17, 17, 0.7);
+font-family: Lexend;
+font-size: 16px;
+font-weight: 400;
+}
+
+.card-text h2{
+  color: rgb(17, 17, 17);
+font-family: Lexend;
+font-size: 20px;
+font-weight: 700;
+margin-top: 20px;
+}
+
+.card-text p{
+  font-family: Lexend;
+  font-size: 16px;
+  font-weight: 300;
+  width: 522px;
+  margin-top: 20px;
+}
+
+.card-text input{
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 8px;
+  padding: 18px;
+  width: 483px;
+  margin-top: 20px;
+}
+
+.card-text button{
+  border-radius: 8px;
+  background: rgb(180, 244, 97);
+  padding: 16px 32px 16px 32px;
+  border: none;
+  width: 522px;
+  font-family: Lexend;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+
+}
+
+footer{
+  background-color: #F9F7F3;
+  width: 1366px;
+  height: 150px
+
 }
